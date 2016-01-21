@@ -1,0 +1,31 @@
+﻿@using mvcexample.Models
+
+<html>
+<head id="Head1">
+    <title>Reevoo Reviews and Badges</title>
+    
+</head>
+<body>
+<div>
+    <h1>Bringing Reviews through Reevoo package</h1>
+    
+</div>
+<hr/>
+<div id="productBadge">
+    <!--Reevoo Badge will be displayed here-->
+    <reevoo-reviewable-badge trkref="BLD" sku="HVFE2150L"></reevoo-reviewable-badge>
+</div>
+    @{
+        var myProduct = new product {sku = "HVFE2150L", pagination = true, ReviewsPerPage = 2, Trkef = "BLD"};
+    }
+<div id="Embedded Reviews">
+    <!--Embedded reviews can be shown here-->
+
+    <h2>Emebedded Reviews</h2>
+    @{
+        Html.RenderPartial("Reevoo", myProduct);}
+</div>
+
+  
+</body>
+</html>

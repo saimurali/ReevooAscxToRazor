@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="mvc-example.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Web.config">
+    <Files>
+      <File FileName="Views/Home/Index.cshtml" Line="58" Column="58" />
+      <File FileName="Views/Web.config" Line="156" Column="156" />
+      <File FileName="Web.config" Line="42" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
