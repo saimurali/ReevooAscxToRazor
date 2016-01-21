@@ -1,1 +1,1 @@
-#Bringing Reviews from usercontrol to cshtml(razor view)
+#Bringing Reviews from usercontrol ascx to cshtml(razor view)
